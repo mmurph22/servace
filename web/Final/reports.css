@@ -1,0 +1,47 @@
+.report_entry {
+	width: 600px;
+}
+.report_entry h3 {
+	color: black;
+	font-family:"Century Gothic";
+	font-style: italic;
+	font-weight:bold;
+	text-decoration: underline;
+}
+.report_entry table {
+	border-style: solid;
+	border-color: rgb(128,128,128);
+	border-width: 2px;
+}
+.report_entry tr:nth-child(even){
+	background-color: rgb(180,180,180);
+}
+.report_entry td, tr {
+	border-style: solid;
+	border-color: rgb(128,128,128);
+	border-width: 2px;
+}
+.report_entry th {
+	font:"Century Gothic";
+	font-weight: bold;	
+	font-size: 20px;
+	text-align: left;
+	padding: 2px 8px;
+	
+	/*
+	 background-color:  rgb(32,32,32);
+	 color: white;
+	*/
+    color: black;
+}
+.report_entry td {
+	font-style: italic;
+	font-size: 16px;
+	width: 400px;
+	padding: 2px 8px;
+}
+
+
+
+
+

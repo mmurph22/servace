@@ -1,0 +1,62 @@
+.navbar-inverse {
+	margin:0;
+	border-width:inherit;
+	background-color:black
+}
+
+/* Styles requested from tables
+ * 
+ */
+.con-ctl, .con-lbl, .con-btn {
+	color: #66AACC;
+	font-family:"Arial Black";
+}
+.con-lbl {
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+}
+.con-btn {
+	font-size: 16px;
+	font-weight:bold;
+	background-color: #AADDFF;
+}
+.con-btn:hover, .con-lbl:hover {
+	background-color: #666666;
+	color: #FFFFFF;
+}
+
+/* show collisions */
+h3 {
+	font-family:"Arial Black";
+	font-weight: bold;
+	color: #444444;
+}
+.table-hover thead {
+	font-family: "Arial Black";
+	font-size: 16px;
+	color: #666666;
+	padding 4px 0 4px 0;
+}
+.table-hover td {
+	font-family: "Arial Black";
+	font-size: 12px;
+	color:#999999;
+	padding 4px 0 4px 0;
+}
+.table-hover td:hover {
+	color: blue;
+	font-style:italic;
+	text-decoration: underline;
+}
+
+/* inherits from class above */
+#mapCanvas, #mapCanvas_locateVenue, #mapCanvas_booking {
+	height: 300px;
+	width: 100%;
+}
+/*
+#comingsoon {
+	border-width:.50em;
+	border-color:red;
+}
+*/
