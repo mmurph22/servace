@@ -1,0 +1,7 @@
+{
+  "name": "servace",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
